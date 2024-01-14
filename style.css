@@ -1,0 +1,34 @@
+body {
+    font-family: Inter; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #f0f0f0; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+}
+h1 {
+    color: #00a800; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+h2 {
+    color: #5988FF; /* ��вет заголовка */
+    font-size: 20px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+li {
+    font-size: 14px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    font-weight: bold;
+}
+p {
+    text-decoration-color: #ff0000; /* Пример цвета подчёркивания текста в параграфах */
+    text-decoration: underline;
+    font-size: 12px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+.example-border {
+    border: 1px solid #000000; /* Параметры границы: толщина, стиль и цвет */
+}
+img {
+    border: 1px solid #000000; /* Параметры границы: толщина, стиль и цвет */
+    height: 200px; /* Высота изображения */
+}
