@@ -6,24 +6,26 @@ body {
 }
 h1 {
     color: #00a800; /* Цвет заголовка */
-    font-size: 24px; /* Размер шрифта в пунктах */
+    font-size: 26px; /* Размер шрифта в пунктах */
     font-family: Georgia, serif; /* Семейство шрифтов */
 }
 h2 {
     color: #5988FF; /* ��вет заголовка */
-    font-size: 20px; /* Размер шрифта в пунктах */
+    font-size: 22px; /* Размер шрифта в пунктах */
     font-family: Georgia, serif; /* Семейство шрифтов */
 }
 li {
-    font-size: 14px; /* Размер шрифта в пунктах */
+    font-size: 18px; /* Размер шрифта в пунктах */
     font-family: Georgia, serif; /* Семейство шрифтов */
     font-weight: bold;
 }
 p {
     text-decoration-color: #ff0000; /* Пример цвета подчёркивания текста в параграфах */
     text-decoration: underline;
-    font-size: 12px; /* Размер шрифта в пунктах */
+    font-size: 16px; /* Размер шрифта в пунктах */
     font-family: Georgia, serif; /* Семейство шрифтов */
+    animation: color-change 3s infinite;
+    line-height: 0.5;
 }
 .example-border {
     border: 1px solid #000000; /* Параметры границы: толщина, стиль и цвет */
@@ -31,4 +33,10 @@ p {
 img {
     border: 1px solid #000000; /* Параметры границы: толщина, стиль и цвет */
     height: 200px; /* Высота изображения */
+}
+
+@keyframes color-change {
+    0% { color: #333333; } /* Starting color */
+    50% { color: #ff0000; } /* Midway color */
+    100% { color: #333333; } /* Ending color, same as starting color */
 }
